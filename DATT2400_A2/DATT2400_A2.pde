@@ -59,7 +59,7 @@ void draw() {
   //read the last 2 clouds last so the rain appears from under it 
   clouds();
 
-  saveFrame("/Users/aisha/Documents/Processing/DATT2400_A2/output/###_out.png");
+  //saveFrame("/Users/aisha/Documents/Processing/DATT2400_A2/output/###_out.png");
 }
 
 void splash() {

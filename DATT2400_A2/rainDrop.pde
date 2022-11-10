@@ -21,8 +21,6 @@ class rainDrop {
   void show() {
     float thick = map(z, 0, 20, 1, 3);
     strokeWeight(thick);
-    //stroke(182,182,182);
-    //stroke(70,130,180);
     stroke(112,128,144);
     line(x,y,x,y+length);
   }
