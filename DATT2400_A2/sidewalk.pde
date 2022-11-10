@@ -7,18 +7,17 @@ class sidewalk {
   void slide() {
     y1 = y1 + yspeed;
     
-    if(y1 > 500) {
-      y1 = 155;
-      yspeed = 4;
+    if(y1 > 1100) {
+      //y1 = 155;
+      noLoop();
     }
   }
   
   void slide2() {
     y2 = y2 + yspeed;
     
-    if(y2 > height) {
+    if(y2 > 500) {
       y2 = 155;
-      yspeed = 4;
     }
   }
   

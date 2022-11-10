@@ -1,4 +1,4 @@
-rainDrop[] drops = new rainDrop[300];
+rainDrop[] drops = new rainDrop[500];
 street[] lines = new street[3];
 sidewalk[] blocks = new sidewalk[3];
 
@@ -17,7 +17,6 @@ void setup() {
     blocks[k] = new sidewalk();
   }
 }
-
 
 void draw() {
   background(105,105,105);
@@ -59,6 +58,8 @@ void draw() {
   
   //read the last 2 clouds last so the rain appears from under it 
   clouds();
+
+  saveFrame("/Users/aisha/Documents/Processing/DATT2400_A2/output/###_out.png");
 }
 
 void splash() {
@@ -71,7 +72,7 @@ void splash() {
   }
   
   //further rain splash circles
-  for (int circs = 1; circs < 80; circs++) {
+  for (int circs = 1; circs < 30; circs++) {
     noFill();
     stroke(112,128,144);
     strokeWeight(random(1,2));

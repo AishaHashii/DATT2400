@@ -8,12 +8,12 @@ class rainDrop {
   //rainfall speed
   void fall() {
     y = y + yspeed;
-    yspeed = yspeed + 0.09;
+    yspeed = yspeed + 0.009;
+    yspeed = map(z, 0, 20, 4, 10);
     
     //rainfall loop
-    if (y > height) {
-      y = random(-200,-100);
-      yspeed = map(z, 0, 20, 4, 10);
+    if (y <= -500) {
+      y = random(-500,-100);
     }
   }
   

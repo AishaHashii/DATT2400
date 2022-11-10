@@ -10,7 +10,6 @@ class street {
     
     if (y1 > height) {
       y1 = 155;
-      yspeed = 4;
     }
   }
   
@@ -19,7 +18,6 @@ class street {
     
     if (y2 > height) {
       y2 = 155;
-      yspeed = 4;
     }
   }
   
@@ -28,7 +26,6 @@ class street {
     
     if (y3 > height) {
       y3 = 155;
-      yspeed = 4;
     }
   }
   
